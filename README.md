@@ -10,16 +10,13 @@ MCP-PDB provides tools for using Python's debugger (pdb) with Claude and other L
 This tool executes Python code through the debugger. Use in trusted environments only.
 
 ## Installation
-
-Works best with [uv](https://docs.astral.sh/uv/getting-started/features/)
-
+```bash
+pip install git+https://github.com/dux6/mcp-pdb.git
+```
 ### Claude Code
 ```bash
 # Install the MCP server
-claude mcp add mcp-pdb -- uv run --with mcp-pdb mcp-pdb
-
-# Alternative: Install with specific Python version
-claude mcp add mcp-pdb -- uv run --python 3.13 --with mcp-pdb mcp-pdb
+claude mcp add mcp-pdb -- mcp-pdb
 
 # Note: The -- separator is required for Claude Code CLI
 ```
