@@ -11,7 +11,7 @@ This tool executes Python code through the debugger. Use in trusted environments
 
 ## Installation
 ```bash
-pip install git+https://github.com/dux6/mcp-pdb.git
+pip install git+https://github.com/diggerdu/mcp-pdb.git
 ```
 ### Claude Code
 ```bash
